@@ -8,12 +8,11 @@ const server = http.createServer(app);
 const socketIO = require("socket.io");
 const io = socketIO(server);
 
-app.use(cors(
-  {
-    origin:["https://realtimeboardshary.vercel.app"],
-    methods:["POST","GET"],
-    credentials:true
-));
+app.use(cors({
+  origin: ["https://realtimeboardshary.vercel.app"],
+  methods: ["POST", "GET"],
+  credentials: true
+}));
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
   res.header(
