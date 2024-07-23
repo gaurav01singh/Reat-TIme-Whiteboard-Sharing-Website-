@@ -8,7 +8,7 @@ import Sidebar from "./Sidebar";
 
 import "./style.css";
 
-const server = "https://boardshary.vercel.app/";
+const server = "https://boardbackend.vercel.app";
 const connectionOptions = {
   "force new connection": true,
   reconnectionAttempts: "Infinity",
