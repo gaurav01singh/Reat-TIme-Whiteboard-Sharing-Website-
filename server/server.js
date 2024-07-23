@@ -6,9 +6,7 @@ const socketIO = require('socket.io');
 
 const app = express();
 const server = http.createServer(app);
-const io = socketIO(server, {
-  transports: ['websocket'], // Ensure websocket transport is used
-});
+const io = socketIO(server);
 
 app.use(cors({
   origin: ["https://realtimeboardshary.vercel.app"],
