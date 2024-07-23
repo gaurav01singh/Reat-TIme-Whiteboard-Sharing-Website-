@@ -10,7 +10,7 @@ const io = socketIO(server);
 
 app.use(cors(
   {
-    origin:["https://realtimeboardshary.vercel.app/"],
+    origin:["https://realtimeboardshary.vercel.app"],
     methods:["POST","GET"],
     credentials:true
 ));
