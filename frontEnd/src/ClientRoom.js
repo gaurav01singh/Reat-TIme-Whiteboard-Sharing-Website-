@@ -26,7 +26,7 @@ const ClientRoom = ({ userNo, socket, setUsers, setUserNo }) => {
           React Drawing App - users online:{userNo}
         </h1>
       </div>
-      <div className="row mt-5">
+      <div className="row ">
         <div
           className="col-md-8 overflow-hidden border border-dark px-0 mx-auto
           mt-3"
